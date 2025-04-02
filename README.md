@@ -42,15 +42,14 @@ THEN I can start a new quiz
    ```sh
    npm install
    ```
-3. Start the development server:
-   ```sh
-   npm run start:dev
-   ```
-4. Start the backend server:
+3. Start the backend server:
    ```sh
    npm run server
    ```
-
+4. Start the development server:
+   ```sh
+   npm run start:dev
+   ```
 ## Running Tests
 1. Install Cypress as a dev dependency:
    ```sh
@@ -61,6 +60,11 @@ THEN I can start a new quiz
    npx cypress open
    ```
 3. Run tests via Cypress Test Runner.
+
+5. Run e2e testing from terminal:
+   ```sh
+   npm run test
+   ```
 
 ## Video Demonstration
 Watch the demo of the application and testing process: [Video Demonstration](https://drive.google.com/file/d/1Y1MgQe0FV6VYX40o4g-1McuoA9oKM0ys/view?usp=drive_link)
